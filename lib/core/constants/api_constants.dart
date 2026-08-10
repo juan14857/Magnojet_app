@@ -4,7 +4,7 @@ class ApiConstants {
   static const String spreadsheetId =
       '1SRT19sUQ2pZ2bNGUa4tVXvmFgPjKRqPwHfyHB7Hi2Fw';
   static const String apiKey =
-      'AIzaSyCgvqccq469KDLj51a-tx95M9ccpbV5Z8E';
+      String.fromEnvironment('GOOGLE_SHEETS_API_KEY');
   static const String sheetName = 'Hoja1';
   static const int lowStockThreshold = 10;
 

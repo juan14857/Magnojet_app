@@ -45,9 +45,17 @@ lib/
    flutter pub get
    ```
 3. Coloca el archivo `catalogo_v40_digital.pdf` en `assets/docs/` (no se versiona en este repositorio por su tamaño).
-4. Ejecuta la app:
+4. Copia `config/dev.json.example` a `config/dev.json` y coloca ahí tu API key de Google Sheets (este archivo no se versiona):
    ```
-   flutter run
+   cp config/dev.json.example config/dev.json
+   ```
+5. Ejecuta la app pasando la configuración:
+   ```
+   flutter run --dart-define-from-file=config/dev.json
+   ```
+   Para compilar un build usa el mismo flag, por ejemplo:
+   ```
+   flutter build apk --dart-define-from-file=config/dev.json
    ```
 
 ## Ramas
