@@ -47,3 +47,6 @@ app.*.map.json
 
 # Large catalog PDF (161MB, exceeds GitHub's 100MB limit) - kept locally only
 /assets/docs/catalogo_v40_digital.pdf
+
+# Local secrets - do not commit
+/config/dev.json
