@@ -1,0 +1,30 @@
+name: magnojet_app
+description: "App de inventario de recursos materiales para Magnojet."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0-247.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  http: ^1.2.1
+  path_provider: ^2.1.4
+  flutter_local_notifications: ^18.0.1
+  intl: ^0.19.0
+  flutter_pdfview: ^1.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/docs/catalogo_v40_digital.pdf
