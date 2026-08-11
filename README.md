@@ -3,9 +3,9 @@
 Aplicación móvil de inventario y cálculo de aplicación agrícola para Magnojet,
 proveedor colombiano de tecnología de aspersión de precisión.
 
-<!-- Cuando montemos el workflow de CI, descomenta:
-![CI](https://github.com/juan14857/Magnojet_app/actions/workflows/ci.yml/badge.svg)
--->
+
+![CI]
+(https://github.com/juan14857/Magnojet_app/actions/workflows/ci.yml/badge.svg)
 
 ---
 
